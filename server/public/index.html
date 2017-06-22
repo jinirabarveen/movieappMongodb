@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>login</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="./js/movieapp.js"></script>
+</head>
+
+<body>
+
+    <h2>Login Form</h2>
+
+    <form action="/login" method="post">
+
+        <div class="container">
+            <label><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" id="username" name="name" required>
+
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+
+            <button type="submit" id="button" onclick="fnlocal()">Login</button>
+            <input type="checkbox" checked="checked"> Remember me
+        </div>
+
+    </form>
+
+</body>
+
+</html>

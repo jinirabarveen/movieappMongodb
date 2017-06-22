@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MovieApp</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script src="../../js/movieapp.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<!--body background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF5MVRfXGcpb9c06WKOnTlqhn9vDftWnIfb1FLsrDv__n9o1KHCQ"-->
+
+<body class="back">
+    <a href="index.html">logout</a>
+    <div class="container-fluid">
+
+        <img class="logo" src="https://d1zx4fn8ox8446.cloudfront.net/filemanager.rboxfile/a72a0f2192d2448a9519561599f7cad2/51a6ee7d-fe24-4f60-b473-675d29399e1e.png">
+        <h3>10 MOVIES TO WATCH BEFORE I DIE</h3>
+
+    </div>
+    <center>
+        <input type="text" placeholder="Enter the movie Name" id="moviename" />
+        <button type="button" class="btn btn-default" onclick="findmovies()"><span class="glyphicon glyphicon-search"></span> Search
+        </button>
+        <button value="favourite" onclick="displayfavourites()"><span class="glyphicon glyphicon-heart"></span>Favourite</button>
+    </center>
+    <center>
+        <table id="movies" border=1>
+            <th>Moviename</th>
+            <th>Poster</th>
+            <th>Release Date</th>
+        </table>
+    </center>
+    <thead>
+    </thead>
+    <tbody>
+    </tbody>
+
+</body>
+
+</html>
